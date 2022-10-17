@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form 7 - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-08 20:21:56+0000\n"
+"PO-Revision-Date: 2022-08-25 19:02:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Contact Form 7 - Stable (latest release)\n"
+
+#: includes/config-validator.php:583
+msgid "Colons are used in form-tag names."
+msgstr "Les doubles points sont utilisés dans les noms de balises de formulaires."
 
 #: modules/text.php:204
 msgid "Please enter a telephone number."
@@ -172,7 +176,7 @@ msgstr "%1$s %2$s"
 msgid "Unique identifier for the contact form."
 msgstr "Identifiant unique pour le formulaire de contact."
 
-#: includes/config-validator.php:553
+#: includes/config-validator.php:555
 msgid "Dots are used in form-tag names."
 msgstr "Les points sont utilisés dans les noms de balises de formulaires."
 
@@ -411,11 +415,11 @@ msgstr "Réglages aditionnels"
 msgid "Error"
 msgstr "Erreur"
 
-#: includes/config-validator.php:772
+#: includes/config-validator.php:825
 msgid "The total size of attachment files is too large."
 msgstr "La taille totale des fichiers joints est trop grande."
 
-#: includes/config-validator.php:526
+#: includes/config-validator.php:528
 msgid "Unavailable HTML elements are used in the form template."
 msgstr "Des éléments HTML indisponibles sont utilisés dans le modèle du formulaire."
 
@@ -427,11 +431,11 @@ msgstr "reCAPTCHA est activé sur ce site."
 msgid "reCAPTCHA response token is empty."
 msgstr "Le jeton de réponse reCAPTCHA est vide."
 
-#: includes/submission.php:599
+#: includes/submission.php:716
 msgid "Submitted nonce is invalid."
 msgstr "Le nonce soumis est non valide."
 
-#: includes/submission.php:590
+#: includes/submission.php:707
 msgid "User-Agent string is unnaturally short."
 msgstr "La chaîne de l’agent utilisateur est anormalement courte."
 
@@ -439,7 +443,7 @@ msgstr "La chaîne de l’agent utilisateur est anormalement courte."
 msgid "reCAPTCHA score (%1$.2f) is lower than the threshold (%2$.2f)."
 msgstr "Le résultat du reCAPTCHA  (%1$.2f) est inférieur au seuil (%2$.2f)."
 
-#: modules/akismet.php:64
+#: modules/akismet.php:66
 msgid "Akismet returns a spam response."
 msgstr "Akismet a retourné une réponse indésirable."
 
@@ -541,7 +545,7 @@ msgstr "Constant Contact"
 msgid "Email marketing"
 msgstr "E-mail marketing"
 
-#: includes/config-validator.php:858
+#: includes/config-validator.php:911
 msgid "It is not allowed to use files outside the wp-content directory."
 msgstr "Il est interdit d’utiliser des fichiers en dehors du répertoire wp-content."
 
@@ -591,7 +595,7 @@ msgstr "Non autorisé"
 msgid "Consented"
 msgstr "Autorisé"
 
-#: includes/submission.php:95
+#: includes/submission.php:110
 msgid "Sending mail has been aborted."
 msgstr "L’envoi de l’e-mail a été annulé."
 
@@ -663,7 +667,7 @@ msgstr "Il est difficile de continuer le développement et le support de cette e
 msgid "This contact form is available only for logged in users."
 msgstr "Ce formulaire de contact est uniquement disponible pour les comptes enregistrés."
 
-#: includes/config-validator.php:191
+#: includes/config-validator.php:192
 msgid "Deprecated settings are used."
 msgstr "Des réglages obsolètes sont utilisés."
 
@@ -698,36 +702,36 @@ msgstr "Le formulaire de contact existe déjà."
 msgid "You are not allowed to access contact forms."
 msgstr "Vous n’avez pas les droits nécessaires pour accéder aux formulaires de contact."
 
-#: includes/config-validator.php:834
+#: includes/config-validator.php:887
 msgid "Attachment file does not exist at %path%."
 msgstr "Le fichier joint n’existe pas dans %path%."
 
-#: includes/config-validator.php:691
+#: includes/config-validator.php:744
 msgid "Invalid mailbox syntax is used in the %name% field."
 msgstr "La syntaxe de la boîte e-mail utilisée dans le champ %name% est invalide."
 
 #. translators: %names%: a list of form control names
-#: includes/config-validator.php:503
+#: includes/config-validator.php:505
 msgid "Unavailable names (%names%) are used for form controls."
 msgstr "Des noms invalides (%names%) sont utilisés pour les contrôles de formulaires."
 
-#: includes/config-validator.php:189
+#: includes/config-validator.php:190
 msgid "There are invalid mail header fields."
 msgstr "Des entêtes du message sont invalides."
 
-#: includes/config-validator.php:185
+#: includes/config-validator.php:186
 msgid "HTML tags are used in a message."
 msgstr "Des balises HTML sont utilisées dans le message."
 
-#: includes/config-validator.php:183
+#: includes/config-validator.php:184
 msgid "Sender email address does not belong to the site domain."
 msgstr "L’adresse e-mail de l’expéditeur n’appartient pas au domaine du site."
 
-#: includes/config-validator.php:181
+#: includes/config-validator.php:182
 msgid "Invalid mailbox syntax is used."
 msgstr "Syntaxe de boîte e-mail non valide."
 
-#: includes/config-validator.php:179
+#: includes/config-validator.php:180
 msgid "There is a possible empty field."
 msgstr "Il est possible qu’il y ait un champ vide."
 
@@ -799,7 +803,7 @@ msgstr "Les spammeurs ciblent tout ; vos formulaires de contact ne sont pas une
 msgid "Getting spammed? You have protection."
 msgstr "Vous avez des indésirables ? Vous êtes protégé."
 
-#: includes/config-validator.php:187
+#: includes/config-validator.php:188
 msgid "Multiple form controls are in a single label element."
 msgstr "Plusieurs contrôleurs ont été mis dans un seul élément labellisé."
 
@@ -858,7 +862,7 @@ msgstr "Une mauvaise configuration entraîne un dysfonctionnement des envois ou 
 msgid "Validate Contact Form 7 Configuration"
 msgstr "Valider la configuration de Contact Form 7."
 
-#: includes/config-validator.php:36
+#: includes/config-validator.php:37
 msgid "https://contactform7.com/configuration-errors/"
 msgstr "https://contactform7.com/configuration-errors/"
 

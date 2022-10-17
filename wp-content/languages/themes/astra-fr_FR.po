@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Astra package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-22 08:50:22+0000\n"
+"PO-Revision-Date: 2022-08-03 13:14:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,6 +22,14 @@ msgstr "Astra est un thème rapide, beau et entièrement personnalisable, approp
 #, gp-priority: high
 msgid "Astra"
 msgstr "Astra"
+
+#: inc/customizer/configurations/builder/header/class-astra-customizer-woo-cart-configs.php:196
+msgid "Slide-In Cart Width"
+msgstr "Largeur du panier glissant"
+
+#: inc/customizer/configurations/builder/header/class-astra-customizer-woo-cart-configs.php:143
+msgid "Slide-In Cart"
+msgstr "Panier glissant"
 
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:215
 msgid "Heading Font"
